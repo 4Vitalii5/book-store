@@ -1,0 +1,53 @@
+databaseChangeLog:
+  - changeSet:
+      id: assign-first-book-to-first-category
+      author: Vitalii Pavlyk
+      changes:
+        - insert:
+            tableName: books_categories
+            columns:
+              - column:
+                  name: book_id
+                  value: 1
+              - column:
+                  name: category_id
+                  value: 1
+  - changeSet:
+      id: assign-first-book-to-second-category
+      author: Vitalii Pavlyk
+      changes:
+        - insert:
+            tableName: books_categories
+            columns:
+              - column:
+                  name: book_id
+                  value: 1
+              - column:
+                  name: category_id
+                  value: 2
+  - changeSet:
+      id: assign-second-book-to-second-category
+      author: Vitalii Pavlyk
+      changes:
+        - insert:
+            tableName: books_categories
+            columns:
+              - column:
+                  name: book_id
+                  value: 2
+              - column:
+                  name: category_id
+                  value: 2
+  - changeSet:
+      id: assign-third-book-to-first-category
+      author: Vitalii Pavlyk
+      changes:
+        - insert:
+            tableName: books_categories
+            columns:
+              - column:
+                  name: book_id
+                  value: 3
+              - column:
+                  name: category_id
+                  value: 1

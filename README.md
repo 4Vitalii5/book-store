@@ -2,7 +2,7 @@
 <br />
 <h1 align="center">
   <img src="src/main/resources/icons/online_book_store.png" alt="Project Logo" width="200"/>
-  <br>Online Book Store
+  <br>ChapterChase
 </h1>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-Welcome to the Online Book Store project! This application aims to provide users with an intuitive and seamless platform to browse, purchase, and manage books online. Leveraging the power of modern technologies such as Spring Boot, the project ensures a secure, scalable, and high-performance environment for both shoppers and administrators. Users can effortlessly search for books, add them to their shopping cart, and complete purchases, while administrators can efficiently manage the book catalog and orders.
+Welcome to the ChapterChase project! This application aims to provide users with an intuitive and seamless platform to browse, purchase, and manage books online. Leveraging the power of modern technologies such as Spring Boot, the project ensures a secure, scalable, and high-performance environment for both shoppers and administrators. Users can effortlessly search for books, add them to their shopping cart, and complete purchases, while administrators can efficiently manage the book catalog and orders.
 
 ## Technologies Used
 
@@ -45,11 +45,11 @@ Welcome to the Online Book Store project! This application aims to provide users
 
 1. **Clone this repository:**
     ```sh
-    git clone https://github.com/4Vitalii5/book-store.git
+    git clone https://github.com/4Vitalii5/chapter-chase.git
     ```
 2. **Navigate to the project directory:**
     ```sh
-    cd book-store
+    cd chapter-chase
     ```
 3. **Install dependencies:**
     ```sh
@@ -96,7 +96,7 @@ Welcome to the Online Book Store project! This application aims to provide users
 
 1. **Create a Docker image:**
     ```sh
-    docker build -t book-store .
+    docker build -t chapter-chase .
     ```
 2. **Run the Docker container:**
     ```sh
@@ -111,11 +111,11 @@ Welcome to the Online Book Store project! This application aims to provide users
 
 1. **Pull the Docker image:**
     ```sh
-    docker pull vitalii454/online-book-store:latest
+    docker pull vitalii454/chapter-chase:latest
     ```
 2. **Run the Docker container:**
     ```sh
-    docker run -p 8081:8080 vitalii454/online-book-store
+    docker run -p 8081:8080 vitalii454/chapter-chase
     ```
 
 ## Tests
@@ -140,19 +140,19 @@ Welcome to the Online Book Store project! This application aims to provide users
 
 ## Postman Collection
 
-For easy testing and interaction with the API, you can use the Postman collection containing all necessary requests.
+For easy testing and interaction with the API, you can use the Postman collection, which contains all necessary requests.
 
 ### 🚀 Usage
 
-1. Open Postman and import the [OnlineBookStore.postman_collection.json](src/main/resources/postman/online-book-store.postman_collection.json).
-2. Navigate to the imported Online Book Store collection.
+1. Open Postman and import the [ChapterChase.postman_collection.json](src/main/resources/postman/online-book-store.postman_collection.json).
+2. Navigate to the imported ChapterChase collection.
 3. Execute the necessary requests using the appropriate methods and parameters.
 
-> **Note:** Before using the requests, ensure that your local server is running, and you have access to the database.
+> **Note:** Before using the requests, ensure that your local server is running and that you have access to the database.
 
 ## Video Demonstration
 
-[Online Book Store demonstration in Postman](https://www.loom.com/share/5a21def77a634f698610a819174d644c?sid=a7b41903-f9c1-4838-8956-e0f64cd3b2cf)
+[ChapterChase demonstration in Postman](https://www.loom.com/share/5a21def77a634f698610a819174d644c?sid=a7b41903-f9c1-4838-8956-e0f64cd3b2cf)
 
 ## Author
 
